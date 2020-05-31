@@ -1,0 +1,11 @@
+config_name: config_no_face_detect
+img_size: [200, 100]
+dataset_names:
+  - 'faces94'
+  - 'faces95'
+  - 'faces96'
+  - 'grimace'
+detect_face: false  # 是否将人脸框选出
+checkpoint_folder: checkpoints  # checkpoints存放的文件夹
+csv_folder: datasets  # 划分dataset后csv文件存放的文件夹
+result_folder: results  # 保存结果的文件夹

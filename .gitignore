@@ -1,0 +1,6 @@
+*.csv
+__pycache__
+.*
+!.gitignore
+!.git
+*.pkl
